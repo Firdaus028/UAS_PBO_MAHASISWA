@@ -90,11 +90,11 @@ class MahasiswaLama extends Mahasiswa {
 public class MainUAS {
 
     public static void main(String[] args) {
-        MahasiswaBaru maba = new MahasiswaBaru("Asmalik Hudri", 22205009, 19);
+        MahasiswaBaru maba = new MahasiswaBaru("Firdaus Muzayuin", 22205009, 17);
         maba.displayInfo();
 
-        MahasiswaLama mala = new MahasiswaLama("Asmalik Hudri", 19, 2022);
-        mala.displayInfo();
+        MahasiswaLama mala = new MahasiswaLama("Firdaus Muzayyin",21, 2022);
+        maba.displayInfo();
     }
 
 }
